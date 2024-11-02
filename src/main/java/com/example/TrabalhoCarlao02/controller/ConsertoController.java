@@ -42,7 +42,7 @@ public class ConsertoController {
 
     @GetMapping
     @RequestMapping("dadosespecificos")
-    public ResponseEntity listarDadosEspecificios(@PageableDefault( size=10, sort={"mecanico","experiencia"} ) Pageable paginacao) {
+    public ResponseEntity listarDadosEspecificios(@PageableDefault( size=10, sort={"entrada","saida"} ) Pageable paginacao) {
 
         var pagina = repo.findAllByAtivoTrue().stream().map(DadosListagemConserto::new).toList();
 
