@@ -1,6 +1,6 @@
 package com.example.TrabalhoCarlao02.repository;
 
-import com.example.TrabalhoCarlao02.conserto.Conserto;
+import com.example.TrabalhoCarlao02.model.Conserto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

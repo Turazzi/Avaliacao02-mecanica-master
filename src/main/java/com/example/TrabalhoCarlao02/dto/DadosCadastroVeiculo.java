@@ -1,4 +1,4 @@
-package com.example.TrabalhoCarlao02.veiculo;
+package com.example.TrabalhoCarlao02.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

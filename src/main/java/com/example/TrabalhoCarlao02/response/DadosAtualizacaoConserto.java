@@ -1,6 +1,6 @@
-package com.example.TrabalhoCarlao02.conserto;
+package com.example.TrabalhoCarlao02.response;
 
-import com.example.TrabalhoCarlao02.mecanico.DadosCadastroMecanico;
+import com.example.TrabalhoCarlao02.dto.DadosCadastroMecanico;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoConserto(

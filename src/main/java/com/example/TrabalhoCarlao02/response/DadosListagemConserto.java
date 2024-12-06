@@ -1,4 +1,6 @@
-package com.example.TrabalhoCarlao02.conserto;
+package com.example.TrabalhoCarlao02.response;
+
+import com.example.TrabalhoCarlao02.model.Conserto;
 
 public record DadosListagemConserto(
         Integer id,

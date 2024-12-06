@@ -1,5 +1,6 @@
-package com.example.TrabalhoCarlao02.mecanico;
+package com.example.TrabalhoCarlao02.model;
 
+import com.example.TrabalhoCarlao02.dto.DadosCadastroMecanico;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

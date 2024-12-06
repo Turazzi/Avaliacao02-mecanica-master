@@ -1,7 +1,5 @@
-package com.example.TrabalhoCarlao02.conserto;
+package com.example.TrabalhoCarlao02.dto;
 
-import com.example.TrabalhoCarlao02.mecanico.DadosCadastroMecanico;
-import com.example.TrabalhoCarlao02.veiculo.DadosCadastroVeiculo;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;

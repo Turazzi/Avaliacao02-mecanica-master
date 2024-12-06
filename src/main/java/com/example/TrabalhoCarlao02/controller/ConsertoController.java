@@ -1,21 +1,22 @@
 package com.example.TrabalhoCarlao02.controller;
 
 
-import com.example.TrabalhoCarlao02.conserto.*;
+import com.example.TrabalhoCarlao02.response.DadosAtualizacaoConserto;
+import com.example.TrabalhoCarlao02.dto.DadosCadastroConserto;
+import com.example.TrabalhoCarlao02.response.DadosDetalhamentoConserto;
+import com.example.TrabalhoCarlao02.response.DadosListagemConserto;
+import com.example.TrabalhoCarlao02.model.Conserto;
 import com.example.TrabalhoCarlao02.repository.ConsertoRepository;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController

@@ -1,9 +1,8 @@
-package com.example.TrabalhoCarlao02.conserto;
+package com.example.TrabalhoCarlao02.model;
 
-import com.example.TrabalhoCarlao02.mecanico.Mecanico;
-import com.example.TrabalhoCarlao02.veiculo.Veiculo;
+import com.example.TrabalhoCarlao02.response.DadosAtualizacaoConserto;
+import com.example.TrabalhoCarlao02.dto.DadosCadastroConserto;
 import jakarta.persistence.*;
-import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

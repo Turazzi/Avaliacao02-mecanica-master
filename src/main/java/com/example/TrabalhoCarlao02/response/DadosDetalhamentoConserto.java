@@ -1,9 +1,8 @@
-package com.example.TrabalhoCarlao02.conserto;
+package com.example.TrabalhoCarlao02.response;
 
-import com.example.TrabalhoCarlao02.mecanico.DadosCadastroMecanico;
-import com.example.TrabalhoCarlao02.mecanico.Mecanico;
-import com.example.TrabalhoCarlao02.veiculo.DadosCadastroVeiculo;
-import com.example.TrabalhoCarlao02.veiculo.Veiculo;
+import com.example.TrabalhoCarlao02.model.Conserto;
+import com.example.TrabalhoCarlao02.model.Mecanico;
+import com.example.TrabalhoCarlao02.model.Veiculo;
 
 public record DadosDetalhamentoConserto(
 
